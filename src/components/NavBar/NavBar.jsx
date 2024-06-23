@@ -13,14 +13,14 @@ export const NavBar = () => {
           objectFit: "cover",
         }}
       />
-
-      <ul style={{ display: "flex", gap: "20px" }}>
-        <li style={{ listStyle: "none" }}>Todas</li>
-        <li style={{ listStyle: "none" }}>Urbanas</li>
-        <li style={{ listStyle: "none" }}>Deportivas</li>
+      <ul className="categorias">
+        <li>Todas</li>
+        <li>Urbanas</li>
+        <li>Deportivas</li>
       </ul>
-
       <CartWidget />
     </div>
   );
 };
+
+export default NavBar;

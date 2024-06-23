@@ -1,16 +1,9 @@
-import { ProductCard } from "../ProductCard/ProductCard";
-
-export const Counter = ({ Restar, contador, Sumar }) => {
+export const Counter = ({ restar, contador, sumar }) => {
   return (
     <div>
-      <button onClick={Restar}>Restar</button>
+      <button onClick={restar}>Restar</button>
       <h2> {contador} </h2>
-      <button onClick={Sumar}>Sumar</button>
-      <ProductCard
-        titulo="Venta de x"
-        descripcion="se vende"
-        precio={contador}
-      />
+      <button onClick={sumar}>Sumar</button>
     </div>
   );
 };

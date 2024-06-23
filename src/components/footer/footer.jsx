@@ -1,10 +1,10 @@
 import "./footer.css";
 
-const footer = () => {
+const Footer = () => {
   return (
     <div>
       <ul>
-        <li>Instagram</li>
+        <li>instagram</li>
         <li>X</li>
         <li>Facebook</li>
       </ul>
@@ -12,7 +12,4 @@ const footer = () => {
   );
 };
 
-export default footer;
-
-// footer() --> Javascript
-// <footer/> */
+export default Footer;

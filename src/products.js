@@ -1,0 +1,38 @@
+export let products = [
+  {
+    id: 0,
+    titulo: "Zapatillas Urbanas Negras",
+    precio: 50.0,
+    descripcion: "Zapatillas elegantes y cómodas para el uso diario.",
+    img: "https://res.cloudinary.com/dm2v8xdbc/image/upload/v1718808096/61c39075bcd1f-542434-500x500_vx2x7m.jpg",
+    stock: 20,
+    categoria: "Urbanas",
+  },
+  {
+    id: 1,
+    titulo: "Zapatillas Urbanas Grises",
+    precio: 60.0,
+    descripcion: "Zapatillas modernas con diseño minimalista.",
+    img: "https://res.cloudinary.com/dm2v8xdbc/image/upload/v1718808168/Zapatillas-Urbano-Nike-Mujeres-Cw4554-005-Wmns-Nike-Air-Max-Sc-Sintetico-Gris---7_aleq7y.jpg",
+    stock: 15,
+    categoria: "Urbanas",
+  },
+  {
+    id: 2,
+    titulo: "Tenis Deportivos Blancos",
+    precio: 75.0,
+    descripcion: "Tenis ligeros y cómodos, perfectos para correr.",
+    img: "https://res.cloudinary.com/dm2v8xdbc/image/upload/v1718808280/gp-challenge-pro-zapatillas-de-tenis-de-pista-rapida-3XW5P0_fpskqz.jpg",
+    stock: 10,
+    categoria: "Deportivas",
+  },
+  {
+    id: 3,
+    titulo: "Tenis para Correr Azules",
+    precio: 80.0,
+    descripcion: "Tenis diseñados para maximizar el rendimiento en carreras.",
+    img: "https://res.cloudinary.com/dm2v8xdbc/image/upload/v1718808344/calzado-de-running-en-carretera-interact-run-2pmmcR_eabxfp.jpg",
+    stock: 8,
+    categoria: "Deportivas",
+  },
+];
